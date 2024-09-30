@@ -20,7 +20,7 @@ class _ServicesGridViewState extends State<ServicesGridView> {
         route: ""),
     ServiceItemModel(
         serviceName: "Group and Section",
-        iconData: FontAwesomeIcons.peopleArrows,
+        iconData: FontAwesomeIcons.users,
         route: ""),
     ServiceItemModel(
         serviceName: "Exams Shuedule",
@@ -33,10 +33,12 @@ class _ServicesGridViewState extends State<ServicesGridView> {
     ServiceItemModel(
         serviceName: "Assessment", iconData: FontAwesomeIcons.pen, route: ""),
     ServiceItemModel(
-        serviceName: "Percentage", iconData: Icons.date_range, route: ""),
+        serviceName: "Percentage",
+        iconData: Icons.incomplete_circle_sharp,
+        route: ""),
     ServiceItemModel(
         serviceName: "Academic transcripts",
-        iconData: Icons.date_range,
+        iconData: FontAwesomeIcons.folderOpen,
         route: ""),
     ServiceItemModel(
         serviceName: "Debits",
@@ -44,7 +46,7 @@ class _ServicesGridViewState extends State<ServicesGridView> {
         route: ""),
     ServiceItemModel(
         serviceName: "Academic vacation",
-        iconData: Icons.date_range,
+        iconData: FontAwesomeIcons.file,
         route: ""),
     ServiceItemModel(
         serviceName: "Enrollments",
